@@ -1,0 +1,22 @@
+class Solution {
+  public:
+    double switchCase(int choice, vector<double> &arr) {
+        // code here
+      double  PI=3.14159265;
+        {
+        // code here
+         if (choice == 1) 
+         {
+            double R = arr[0];
+            return PI * R * R;
+        }
+        else if (choice == 2)
+        {
+            double L = arr[0];
+            double B = arr[1];
+            return L * B;
+        }
+        return 0.0;
+    }
+    }
+};
