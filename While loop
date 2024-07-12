@@ -5,7 +5,7 @@ class Geeks {
             while(multiplier>0)
             {
                 //Your code here
-            System.out.print(multiplier + " ");
+            System.out.print((n*multiplier) + " ");
             multiplier--;
             }
        System.out.println();
