@@ -4,10 +4,8 @@ class Solution {
         switch(str)
         {
             case "Character":
-            case "char":
                 return 1;
             case "Integer":
-            case "int":
                 return 4;
             case "Long":
                 return 8;
