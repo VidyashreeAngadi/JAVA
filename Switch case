@@ -1,22 +1,17 @@
-class Solution {
-  public:
-    double switchCase(int choice, vector<double> &arr) {
+class Solution{
+    static double switchCase(int choice, List<Double> arr){
         // code here
-      double  PI=3.14159265;
+        double PI=3.14159265;
+        switch(choice)
         {
-        // code here
-         if (choice == 1) 
-         {
-            double R = arr[0];
-            return PI * R * R;
-        }
-        else if (choice == 2)
-        {
-            double L = arr[0];
-            double B = arr[1];
-            return L * B;
+            case 1:
+                double R=arr.get(0);
+                return R*R*PI;
+            case 2:
+                double L=arr.get(0);
+                double B=arr.get(1);
+                return L*B;
         }
         return 0.0;
     }
-    }
-};
+}
