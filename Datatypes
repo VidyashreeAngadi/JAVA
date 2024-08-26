@@ -1,20 +1,17 @@
 class Solution {
     static int dataTypeSize(String str) {
         // code here
-        switch(str)
-        {
-            case "Character":
-                return 1;
-            case "Integer":
-                return 4;
-            case "Long":
-                return 8;
-            case "Float":
-                return 4;
-            case "Double":
-                return 8;
-            default :
-            return -1;
-        }
+        if(str.equals("Character"))
+           return 2;
+           if(str.equals("Integer"))
+           return 4;
+           if(str.equals("Long"))
+           return 8;
+           if(str.equals("Float"))
+           return 4;
+           if(str.equals("Double"))
+           return 8;
+           else
+           return -1;
     }
 }
