@@ -1,0 +1,20 @@
+lass Solution {
+    public boolean isPalindrome(int x) 
+    {
+        while(x>0)
+        {
+        int pal=0;
+	    int digit=x%10;
+	    pal=(pal*10)+digit;
+	    x=x/10;
+	    if(pal==x)
+	    {
+	        return true;
+	    }
+	    else
+	    {
+	        return false;
+	    }
+   }
+ }
+}
