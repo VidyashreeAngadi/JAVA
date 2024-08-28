@@ -1,0 +1,13 @@
+class Solution {
+    static Long[] lcmAndGcd(Long A , Long B) {
+        // code here
+        while(A%B!=0)
+        {
+            long rem=A%B;
+            A=B;
+            B=rem;
+        }
+        long gcd=B;
+        long lcm=(A*B)/gcd;
+    }
+}
