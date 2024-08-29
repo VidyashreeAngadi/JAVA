@@ -1,0 +1,13 @@
+class Solution
+{
+  public void printNos(int N)
+    {
+        //Your code here
+        int i=1;
+         do
+         {
+            System.out.print(i+" "); 
+            i++;
+         }while(i<=N);
+    }
+}
