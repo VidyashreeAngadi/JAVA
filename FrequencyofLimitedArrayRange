@@ -1,0 +1,19 @@
+class Solution {
+    // Function to count the frequency of all elements from 1 to N in the array.
+    public static void frequencyCount(int arr[], int N, int P) {
+        // do modify in the given array
+        ++P;
+        for(int i=0;i<N;i++)
+        {
+            int idx=arr[i]%P-1;
+            if(idx>=0 && idx<N)
+            {
+                arr[idx]=arr[idx]+P;
+            }
+        }
+        for(int i=0;i<N;i++)
+        {
+            arr[i]=arr[i]/P;
+        }
+    }
+}
