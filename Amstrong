@@ -5,7 +5,7 @@ public class Main
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
 		int temp=n;
-        int am=0;
+                int am=0;
 		while(n>0)
 		{
 		   int digit=n%10;
