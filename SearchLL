@@ -1,0 +1,12 @@
+public boolean searchLinkedlist(Node head,int target)
+{
+while(head!=null)
+{
+if(head.data==target)
+{
+return true;
+}
+head=head.next;
+}
+return false;
+}
